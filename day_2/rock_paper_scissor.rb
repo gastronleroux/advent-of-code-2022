@@ -1,0 +1,7 @@
+require_relative "rock_paper_scissor/constants"
+require_relative "rock_paper_scissor/game_record"
+require_relative "rock_paper_scissor/player_game/record"
+require_relative "rock_paper_scissor/player_game/record_builder"
+require_relative "rock_paper_scissor/player_game/outcome_decisor"
+require_relative "rock_paper_scissor/player_game/points_calculator"
+require_relative "rock_paper_scissor/player_game/analysis"
