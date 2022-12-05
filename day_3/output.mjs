@@ -23,4 +23,4 @@ fs.readFile('day_3/input', 'utf8', (err, input) => {
   const trimmedInput = input.trim()
 
   console.log(strategyFunction(trimmedInput))
-});
+})

@@ -4,6 +4,7 @@ export default (array, chunkSize) =>
       const groupIndex = Math.floor(index / chunkSize)
       groups[groupIndex] = groups[groupIndex] || []
       groups[groupIndex].push(element)
+
       return groups
     },
     []

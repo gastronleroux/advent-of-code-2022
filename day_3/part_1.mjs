@@ -1,11 +1,11 @@
-import duplicateCharacters from './duplicate_characters.mjs'
-import { PRIOTITY_BY_CHARACTER } from "./constants.mjs"
+import { duplicatedCharacters } from './utils.mjs'
+import { PRIOTITY_BY_CHARACTER } from './constants.mjs'
 
 const prioritySum = (line) => {
   const middleCharacterIndex = Math.round(line.length / 2)
   const firstHalf = line.slice(0, middleCharacterIndex)
   const secondHalf = line.slice(middleCharacterIndex)
-  const sameCharacters = duplicateCharacters(firstHalf, secondHalf)
+  const sameCharacters = duplicatedCharacters(firstHalf, secondHalf)
   
   return sameCharacters.reduce(
     (sum, character) => sum + PRIOTITY_BY_CHARACTER[character], 0
