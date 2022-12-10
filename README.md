@@ -1,5 +1,5 @@
 # advent-of-code-2022
-Depending on the language, tasks can be run differently
+Depending on the language, tasks can be run differently. Each day has 2 parts.
 
 ### Ruby
 ```
