@@ -25,3 +25,5 @@ class CaloriesHunter
     end
   end
 end
+
+p CaloriesHunter.new(File.open("day_1/input", "r").read).hunt
