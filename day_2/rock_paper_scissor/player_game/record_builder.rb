@@ -1,8 +1,6 @@
 module RockPaperScissor
   module PlayerGame
     class RecordBuilder
-      PLAYER_NUMBERS = [1, 2].freeze
-
       def initialize(game_record:, player_number:)
         @game_record = game_record
         @player_number = player_number
