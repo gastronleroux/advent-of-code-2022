@@ -4,13 +4,13 @@ Depending on the language, tasks can be run differently. Each day has 2 parts.
 ### Ruby
 Ruby version: 3.1.2
 ```
-ruby day-x/part-y.rb
+ruby day_x/part_y.rb
 ```
 
 ### JavaScript
 Node version: 16.18.0
 ```
-node day-x/output.mjs part-y
+node day_x/output.mjs part_y
 ```
 
 ### Accomplished tasks:
