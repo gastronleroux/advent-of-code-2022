@@ -14,7 +14,7 @@ module Terminal
         @files_byte_sizes_by_name ||= output_by_type[:file].map do |args|
           arg_1, arg_2 = args.split(" ")
 
-          [arg_2, arg_1.to_i] if arg_1 != "dir"
+          [arg_2, arg_1.to_i]
         end.to_h
       end
 
@@ -32,7 +32,8 @@ module Terminal
         @output_by_type ||= output.group_by do |details|
           details.split(" ").first == "dir" ? :directory : :file
         end.tap do |output_by_type|
-          output_by_type.default = []
+          output_by_type[:file] ||= []
+          output_by_type[:directory] ||= []
         end
       end
     end

@@ -21,20 +21,14 @@ module Terminal
       children.select(&:directory?)
     end
 
-    def all_directories
-      directories.flat_map(&:all_directories).unshift(self)
+    def all_directories(&block)
+      directories.filter_map do |directory|
+        directory.all_directories(&block) if !block_given? || yield(directory)
+      end.flatten(1).unshift(self)
     end
 
-    def files
-      children.reject(&:directory?)
-    end
-
-    def all_files
-      files + directories.flat_map(&:all_files)
-    end
-
-    def total_byte_size
-      children.sum(&:total_byte_size)
+    def byte_size
+      children.sum(&:byte_size)
     end
 
     def find_file_by_name(name)

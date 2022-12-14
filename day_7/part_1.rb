@@ -1,6 +1,9 @@
 require_relative "terminal"
 
 input = File.read("day_7/input")
-directories = Terminal::LogsDeserializer.new(input).deserialize.all_directories
+root_directory = Terminal::LogsDeserializer.new(input).deserialize
+filtered_directories = root_directory.all_directories do |directory|
+  directory.byte_size >= 100_000
+end
 
-p directories.filter { |directory| directory.total_byte_size <= 100_000 }.sum(&:total_byte_size)
+p filtered_directories.sum(&:byte_size)

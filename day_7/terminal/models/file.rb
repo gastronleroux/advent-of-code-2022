@@ -2,9 +2,9 @@ module Terminal
   class File
     attr_reader :name, :byte_size, :parent
 
-    def initialize(name:, byte_size:, parent:)
-      @name = name
+    def initialize(byte_size:, name:, parent: nil)
       @byte_size = byte_size
+      @name = name
       @parent = parent
 
       add_to_parent
@@ -12,10 +12,6 @@ module Terminal
 
     def directory?
       false
-    end
-
-    def total_byte_size
-      byte_size
     end
 
     private
