@@ -1,0 +1,13 @@
+module Forest
+  LEFT_DIRECTION = :left
+  RIGHT_DIRECTION = :right
+  UP_DIRECTION = :up
+  DOWN_DIRECTION = :down
+
+  DIRECTIONS = [
+    LEFT_DIRECTION,
+    RIGHT_DIRECTION,
+    UP_DIRECTION,
+    DOWN_DIRECTION
+  ].freeze
+end

@@ -22,6 +22,7 @@ node day_x/output.mjs part_y
 - [x] Day 5: Supply Stacks <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1280px-Unofficial_JavaScript_logo_2.svg.png" />
 - [x] Day 6: Tuning Trouble <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1280px-Unofficial_JavaScript_logo_2.svg.png" />
 - [x] Day 7: No Space Left On Device <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
+- [x] Day 8: Treetop Tree House <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 
 ### Benchmarking
 
@@ -33,7 +34,7 @@ How it was measured:
 ```js
 console.time('measure')
 
-for(let i = 1; i < input.length / 10; i++) {
+for (let i = 1; i < input.length / 10; i++) {
   strategyFunction(input, i)
 }
 
