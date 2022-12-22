@@ -25,6 +25,7 @@ node day_x/output.mjs part_y
 - [x] Day 8: Treetop Tree House <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 - [x] Day 9: Rope Bridge <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1280px-Unofficial_JavaScript_logo_2.svg.png" />
 - [x] Day 10: Cathode-Ray Tube <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
+- [x] Day 11: Monkey in the Middle <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 
 ### Benchmarking
 
