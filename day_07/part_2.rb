@@ -1,6 +1,6 @@
 require_relative "terminal"
 
-input = File.read("day_7/input")
+input = File.read("day_07/input")
 root_directory = Terminal::LogsDeserializer.new(input).deserialize
 
 space_needed = 30_000_000

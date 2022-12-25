@@ -4,15 +4,15 @@ class CaloriesHunter
   end
 
   def hunt
-    sum_of_top_3_calories
+    max_calories
   end
 
   private
 
   attr_reader :input
 
-  def sum_of_top_3_calories
-    summed_calories.max(3).sum
+  def max_calories
+    summed_calories.max
   end
 
   def summed_calories
@@ -26,4 +26,4 @@ class CaloriesHunter
   end
 end
 
-p CaloriesHunter.new(File.open("day_1/input", "r").read).hunt
+p CaloriesHunter.new(File.open("day_01/input", "r").read).hunt

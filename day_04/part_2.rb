@@ -1,4 +1,4 @@
-lines = File.open("day_4/input", "r").readlines
+lines = File.open("day_04/input", "r").readlines
 pairs_of_ranges = lines.map do |line|
   line.split(",").map { |range| Range.new(*range.split("-").map(&:to_i)) }
 end
