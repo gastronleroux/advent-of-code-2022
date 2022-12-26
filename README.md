@@ -1,4 +1,4 @@
-# advent-of-code-2022
+# [advent-of-code-2022](https://adventofcode.com/2022)
 Depending on the language, tasks can be run differently. Each day has 2 parts.
 
 ### Ruby
@@ -27,6 +27,7 @@ node day_x/output.mjs part_y
 - [x] Day 10: Cathode-Ray Tube <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 - [x] Day 11: Monkey in the Middle <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 - [x] Day 12: Hill Climbing Algorithm <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1280px-Unofficial_JavaScript_logo_2.svg.png" />
+- [x] Day 13: Distress Signal <img width="12" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1280px-Ruby_logo.svg.png" />
 
 ### Benchmarking
 

@@ -1,4 +1,4 @@
-require 'yaml'
+require "yaml"
 
 module MonkeyBusiness
   class Deserializer

@@ -1,11 +1,11 @@
 /**
  * @example
- * const string = "abac"
+ * const string = 'abac'
  * const substringLength = 3
  * 
  * const index = indexOfUniqueSubstring(string, substringLength) 
  * // index is set to 1. First substring with unique chars of length 3
- * // is "bac" which starts at index 1
+ * // is 'bac' which starts at index 1
  * 
  * @param {string} string
  * @param {number} substringLength
