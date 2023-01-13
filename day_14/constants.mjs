@@ -1,0 +1,12 @@
+const AIR_SYMBOL = 0
+const ROCK_SYMBOL = 1
+const SAND_SYMBOL = 2
+
+const SAND_DROP_COORDINATES = { x: 500, y: 0 }
+
+export {
+  AIR_SYMBOL,
+  ROCK_SYMBOL,
+  SAND_SYMBOL,
+  SAND_DROP_COORDINATES,
+}
