@@ -11,7 +11,7 @@ module Beacons
       define_ranges(x_range: infinity_range, y_range: infinity_range)
     end
 
-    def with_restricred_range(x_range:, y_range:)
+    def with_restricted_range(x_range:, y_range:)
       define_ranges(x_range:, y_range:)
 
       self

@@ -7,7 +7,7 @@ max_x = max_y = 4_000_000
 max_x_items = (min_x..max_x).size
 
 zone = BeaconsZoneDeserializer.new(File.read("day_15/input")).deserialize.
-  with_restricred_range(x_range: (min_x..max_x), y_range: (min_y..max_y))
+  with_restricted_range(x_range: (min_x..max_x), y_range: (min_y..max_y))
   
 y = (min_y..max_y).find { |y| zone.beaconless_x_count_on_row(y, false) < max_x_items }
 ranges_with_x = zone.beaconless_x_ranges_on_row(y, false).sort_by(&:begin)
